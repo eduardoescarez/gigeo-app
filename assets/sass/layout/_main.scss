@@ -1,0 +1,38 @@
+.section{
+
+    &__author{
+        font-size: $medium;
+        font-weight: $bold;
+        font-family: $poppins;
+    }
+
+    &__followers{
+        font-size: $small;
+        color: $grey;
+        font-weight: $regular;
+    }
+
+    &__popular{
+        padding-top: 20px;
+        padding-bottom: 20px;
+            &--title{
+            font-family: $poppins;
+            font-size: $large;
+            }
+    }
+
+    &__header{
+        &--video{
+            font-family: $poppins;
+            font-weight: $bold;
+            font-size: $intermediate;
+        }
+
+        &--count{
+            color: $grey;
+            font-size: $small;
+            font-weight: $thin;
+        }
+
+    }
+}

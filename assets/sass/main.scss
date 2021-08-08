@@ -3,16 +3,19 @@
 @import 'abstracts/typography';
 @import 'abstracts/variables';
 
-// Importación de bootstrap
+// Importación de externos
 @import 'vendors/bootstrap-5/bootstrap.scss';
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Poppins:wght@200;400;700&family=Roboto:wght@400;700&display=swap');
 
 // Importación de componentes
 
 @import 'components/buttons';
-@import 'components/navigations';
-@import 'components/thumbnails';
+
+// Importación de elementos base
+
+@import 'base/body';
 
 // Importación de estructura
 
-@import 'layout/sidebar';
+@import 'layout/header';
 @import 'layout/main';
