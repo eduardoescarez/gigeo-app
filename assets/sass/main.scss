@@ -1,0 +1,18 @@
+// Importación de variables
+
+@import 'abstracts/typography';
+@import 'abstracts/variables';
+
+// Importación de bootstrap
+@import 'vendors/bootstrap-5/bootstrap.scss';
+
+// Importación de componentes
+
+@import 'components/buttons';
+@import 'components/navigations';
+@import 'components/thumbnails';
+
+// Importación de estructura
+
+@import 'layout/sidebar';
+@import 'layout/main';
