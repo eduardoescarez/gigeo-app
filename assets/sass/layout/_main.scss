@@ -1,38 +1,81 @@
-.section{
+.author{
 
-    &__author{
-        font-size: $medium;
-        font-weight: $bold;
-        font-family: $poppins;
+    &__identification{
+        
+
+        font-size:                  15px;
+        font-weight:                $bold;
+        font-family:                $poppins;
+        line-height:                0.5;
+        padding-left:               20px;
+
+         @include media-breakpoint-up(sm) {
+         
+            font-size:                  $medium;
+            font-weight:                $bold;
+            font-family:                $poppins;
+            line-height:                0.5;
+            padding-left:               0;
+        }
+
     }
 
     &__followers{
-        font-size: $small;
-        color: $grey;
-        font-weight: $regular;
+        font-size:                  11px;
+        color:                      $grey;
+        font-weight:                $regular;
+        padding-left:               20px;
+        
+        @include media-breakpoint-up(sm) {
+         
+            padding-left:               0;
+            font-size:                  $small;
+        }
     }
 
+    &__profile{
+        padding:                    5px;
+        height:                     80px;
+        width:                      80px;
+        font-weight:                $thin;
+    }
+
+ 
+}
+
+.videos{
+
     &__popular{
-        padding-top: 20px;
-        padding-bottom: 20px;
+        padding-top:                20px;
+        padding-bottom:             20px;
+            
             &--title{
-            font-family: $poppins;
-            font-size: $large;
+            font-family:            $poppins;
+            font-size:              $large;
             }
     }
 
     &__header{
         &--video{
-            font-family: $poppins;
-            font-weight: $bold;
-            font-size: $intermediate;
+            font-family:            $poppins;
+            font-weight:            $bold;
+            font-size:              $medium;
         }
 
         &--count{
-            color: $grey;
-            font-size: $small;
-            font-weight: $thin;
+            color:                  $grey;
+            font-size:              $small;
+            font-weight:            $thin;
         }
 
+    }
+
+    &__element{
+        @include media-breakpoint-up(lg) {
+            padding:                15px;
+        }
+        @include media-breakpoint-up(xl) {
+            padding:                30px;
+        }
     }
 }

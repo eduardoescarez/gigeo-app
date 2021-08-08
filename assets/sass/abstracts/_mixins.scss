@@ -1,0 +1,6 @@
+@mixin banner(){
+
+                width:              100%;
+                object-fit:         cover;
+                @content;
+}

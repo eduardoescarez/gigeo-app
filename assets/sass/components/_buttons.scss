@@ -1,0 +1,9 @@
+.btn-message{
+        @include button-variant ($background: $sky, $border: white);
+        color:                      $white;
+}
+
+.btn-follow{
+        @include button-variant ($background: $orange, $border: white);
+        color:                      $white;
+}

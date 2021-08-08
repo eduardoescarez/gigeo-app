@@ -1,7 +1,16 @@
-.header__title{
+.header{
 
-    font-size:                  $large;
-    font-family:                $poppins;
-    font-weight:                $bold;
-
+    &__banner{
+       
+        &--mobile{
+            @include banner(){
+            height:                 5rem;
+            }
+        }
+        &--desktop{
+            @include banner(){
+            height:                 15rem;
+            }
+        }
+    }
 }

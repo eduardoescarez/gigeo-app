@@ -1,0 +1,17 @@
+.nav__title{
+
+    font-size:                      $large;
+    font-family:                    $poppins;
+    font-weight:                    $bold;
+
+    &--sub{
+        vertical-align:             super; 
+        font-size:                  18px;
+    }
+
+}
+
+.nav__left{
+    justify-content:                flex-end;
+    font-size:                      20px;
+}
