@@ -27,7 +27,7 @@
         padding-left:               20px;
         
         @include media-breakpoint-up(sm) {
-         
+
             padding-left:               0;
             font-size:                  $small;
         }
@@ -40,6 +40,10 @@
         font-weight:                $thin;
     }
 
+    @include media-breakpoint-up(lg) {
+
+        padding-left:               20px;
+    }
  
 }
 
@@ -52,6 +56,11 @@
             &--title{
             font-family:            $poppins;
             font-size:              $large;
+            }
+
+         @include media-breakpoint-up(lg) {
+
+            padding-left:               20px;
             }
     }
 
