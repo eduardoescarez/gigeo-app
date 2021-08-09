@@ -9708,6 +9708,7 @@ body {
 @media (min-width: 992px) {
   .author {
     padding-left: 20px;
+    padding-right: 20px;
   }
 }
 
